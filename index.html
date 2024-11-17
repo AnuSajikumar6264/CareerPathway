@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Coaching & Resume Optimizer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add styles for the Hero Section background */
+        #hero {
+            background: url('main_page_img.webp') no-repeat center center; /* Replace with your image */
+            background-size: cover;
+            height: 100vh; /* Full screen height */
+            color: white;
+        }
+
+        #hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow to the text */
+        }
+
+        #hero p {
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        #hero .btn-primary {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="text-center d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mb-3">Boost Your Career</h1>
+        <p class="mb-4">Choose between Interview Coaching and Resume Optimization to land your dream job!</p>
+        <a href="#services" class="btn btn-primary btn-lg">Let’s Get Started</a>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="container my-5">
+        <h2 class="text-center">Login to Proceed</h2>
+        <form class="w-50 mx-auto mt-4">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-success w-100">Login</button>
+        </form>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center">Select Your Service</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="interview_coach.jpeg" class="card-img-top" alt="Interview Coaching">
+                    <div class="card-body">
+                        <h5 class="card-title">Interview Coaching</h5>
+                        <p class="card-text">Get personalized coaching and ace your next interview with confidence!</p>
+                        <a href="interview-coaching.html" class="btn btn-primary">Start Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="resume_optimize.jpeg" class="card-img-top" alt="Resume Optimization">
+                    <div class="card-body">
+                        <h5 class="card-title">Resume Optimization</h5>
+                        <p class="card-text">Optimize your resume and stand out in the competitive job market!</p>
+                        <a href="resume-optimization.html" class="btn btn-primary">Start Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
